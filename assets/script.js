@@ -55,7 +55,7 @@ right.addEventListener("click", function () {
     }
     createSlider(position);
 });
-//création des dots
+//création des dots adns le slider
 function createDots(){
 	const dots = document.querySelector(".dots");	
    for (let index = 0; index < slides.length; index++) {
