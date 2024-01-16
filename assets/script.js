@@ -38,21 +38,25 @@ function createSlider(position){
 }
 //création de l'évenement "clic gauche"
 left.addEventListener("click", function() {
-	if (position == 0) {
+	/*if (position == 0) {
         position = numberOfSlide - 1;
     }
     else {
         position--;
-    }
+    }*/
+	//condition ternaire
+	position === 0 ? position = numberOfSlide-1 : position--;
         createSlider(position);
 });
 //création de l'évenement "clic droit"
 right.addEventListener("click", function () {
-    if (position == numberOfSlide - 1) {
+    /*if (position == numberOfSlide - 1) {
         position = 0;
     } else {
             position++;
-    }
+    }*/
+	//condition ternaire
+	position === numberOfSlide-1 ? position = 0 : position++;
     createSlider(position);
 });
 //création des dots adns le slider
