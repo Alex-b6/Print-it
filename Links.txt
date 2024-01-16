@@ -1,0 +1,7 @@
+1. Lien vers le repo GitHub du code :
+
+https://github.com/Alex-b6/Print-it
+
+2. Lien vers la page GitHub Pages du site Print It pour visualiser le résultat :
+
+https://alex-b6.github.io/Print-it/ 
